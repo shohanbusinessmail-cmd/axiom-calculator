@@ -1,0 +1,5 @@
+PASSED: 113
+FAILED: 0
+
+All mandatory Section 17 reference vectors passed against the Python algorithmic reference.
+2026-10-21T19:53:17Z

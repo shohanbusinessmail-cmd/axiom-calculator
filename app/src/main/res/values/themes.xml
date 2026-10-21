@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme: Compose owns all real theming (see ui/theme). -->
+    <style name="Theme.AxiomCalculator" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+
+    <!-- Launch theme shown for the brief window before Compose content attaches. -->
+    <style name="Theme.AxiomCalculator.Splash" parent="Theme.AxiomCalculator">
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+</resources>
